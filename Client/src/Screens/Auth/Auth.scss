@@ -1,7 +1,7 @@
 .AuthMain{
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 22rem;
     margin: auto;
     gap: 1rem;
     justify-content: center;
@@ -9,7 +9,8 @@
     height: 100vh;
     .heading{
         text-transform: uppercase;
-        font-size: 22px;
+        font-size: 1rem;
+        text-align: center;
     }
     .inputField{
         width: 100%;
@@ -53,3 +54,6 @@
     }
 }
 
+.google-item{
+    width: 100%;
+}

@@ -1,44 +1,53 @@
-.chatMainContainer{
+.chatMainContainer {
     overflow: hidden;
-    // padding: 3rem;
     color: white;
     background-color: gray;
-    .head{
+    height: 100vh;
+
+    .head {
         background-color: gray;
         padding: 1rem;
         color: white;
         border-radius: 5px;
     }
-    .chatMain{
+
+    .chatMain {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding: 2rem 10rem;
 
     }
-    .message{
+
+    .message {
         background-color: rgb(74, 73, 73);
         padding: 1rem 0.5rem;
         border-radius: 10px;
     }
-    .chat{
+
+    .chat {
         padding: 1rem 0.5rem;
 
     }
-    .chatAll{
+
+    .chatAll {
         height: 74vh;
         overflow-y: auto;
     }
-    .input{
+
+    .input {
         padding: 1rem;
     }
-    .headd{
+
+    .headd {
         padding: 0.5rem 0;
     }
-    .response{
+
+    .response {
         padding: 0.5rem 0;
     }
-    .enterData{
+
+    .enterData {
         cursor: pointer;
         font-size: 20px;
     }

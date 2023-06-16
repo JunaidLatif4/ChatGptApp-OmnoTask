@@ -8,7 +8,7 @@ const ChatRequestAPI = async (message) => {
 
     try {
         const res = await axios({
-            url: "/chat/",
+            url: "chat/",
             method: "POST",
             data: {
                 message
@@ -25,4 +25,4 @@ const ChatRequestAPI = async (message) => {
     return resolved;
 };
 
-export default { ChatRequestAPI }
+export { ChatRequestAPI }

@@ -35,6 +35,7 @@ class chatRequest(APIView):
                 max_tokens = 300,
                 temperature = 0.5
             )
+            result["message"] = userRequest
             print("RESULT ------- >" , result)
             return JsonResponse(result , status=200)
         return JsonResponse({"message" : "Message is Requried"} , status=400)

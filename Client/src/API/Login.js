@@ -11,7 +11,7 @@ const LoginWithEmailAPI = async (email) => {
 
     try {
         const res = await axios({
-            url: "/login/email",
+            url: "login/email",
             method: "POST",
             data: {
                 email
