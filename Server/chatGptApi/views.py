@@ -37,4 +37,12 @@ class chatRequest(APIView):
             )
             print("RESULT ------- >" , result)
             return JsonResponse(result , status=200)
-        return JsonResponse({"message" : ""} , status=400)
+        return JsonResponse({"message" : "Message is Requried"} , status=400)
+    
+# class EmailLogin(APIView):
+#     def post(self , request):
+#         userEmail = request.data["email"]
+#         if userEmail :
+            
+#             return
+#         return JsonResponse({"message":"Email is Requried"} , status=400)
