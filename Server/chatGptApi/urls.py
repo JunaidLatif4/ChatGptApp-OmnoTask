@@ -11,5 +11,5 @@ from .views import homePageView , chatRequest
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("" , homePageView),
-    path("api/" , chatRequest)
+    path("api/chat/" , chatRequest.as_view()),
 ]
