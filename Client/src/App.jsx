@@ -9,7 +9,7 @@ import {
 
 // Components :
 import Auth from './Components/Auth/Auth';
-
+import Chat from './Components/Chat/Chat';
 
 
 
@@ -20,6 +20,7 @@ const App = () => {
       <Router >
         <Routes>
           <Route exact path='/login' element={<Auth />}></Route>
+          <Route exact path='/chat' element={<Chat />}></Route>
           <Route path="*" element={<Auth />} />
         </Routes>
       </Router >
