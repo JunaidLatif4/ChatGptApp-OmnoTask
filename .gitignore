@@ -1,0 +1,19 @@
+# CLIENT SIDE - ReactJS
+node_modules
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+Client/build
+
+# Server - DjangoPython
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+Server/env
+
+# Common 
+.env
