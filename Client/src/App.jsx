@@ -19,8 +19,9 @@ const App = () => {
     <div className="App">
       <Router >
         <Routes>
-          <Route exact path='/login' element={<Auth />}></Route>
-          <Route exact path='/chat' element={<Chat />}></Route>
+          <Route path='/' element={<Chat />}></Route>
+          <Route path='/login' element={<Auth />}></Route>
+          {/* <Route path='/chat' element={<Chat />}></Route> */}
           <Route path="*" element={<Auth />} />
         </Routes>
       </Router >
