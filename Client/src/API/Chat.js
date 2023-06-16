@@ -1,4 +1,4 @@
-import axios from "../../AxiosInstance";
+import axios from "../AxiosInstance";
 
 const ChatRequestAPI = async (message) => {
     let resolved = {
