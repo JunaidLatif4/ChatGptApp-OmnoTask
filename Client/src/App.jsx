@@ -7,6 +7,10 @@ import {
   useLocation
 } from 'react-router-dom';
 
+// Components :
+import Auth from './Components/Auth/Auth';
+
+
 
 
 
@@ -15,7 +19,8 @@ const App = () => {
     <div className="App">
       <Router >
         <Routes>
-
+          <Route exact path='/login' element={<Auth />}></Route>
+          <Route path="*" element={<Auth />} />
         </Routes>
       </Router >
     </div>

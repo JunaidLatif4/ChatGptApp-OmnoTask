@@ -1,0 +1,55 @@
+.AuthMain{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: auto;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .heading{
+        text-transform: uppercase;
+        font-size: 22px;
+    }
+    .inputField{
+        width: 100%;
+    }
+    .BtnSubmit{
+        width: 100%;
+        padding: 1rem 0;
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+        height: 60px !important;
+        background-color: #10a37f;
+        border: transparent;
+
+    }
+    .BtnSubmit:hover{
+        color: white;
+        border: transparent;
+    }
+    .border{
+        margin-top: 2rem;
+        width: 100%;
+        border-bottom: 1px solid gray;
+    }
+    .googleBtn{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        height: 50px;
+        align-items: center;
+        text-align: center;
+        
+        img{
+            width: 24px;
+            height: 24px;
+        }
+    }
+    .googleBtn:hover{
+        border: 1px solid gray;
+        color: black;
+    }
+}
+
